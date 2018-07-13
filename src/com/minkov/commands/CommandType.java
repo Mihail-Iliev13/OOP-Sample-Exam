@@ -1,0 +1,6 @@
+package com.minkov.commands;
+
+public enum CommandType {
+    EXIT, ADD_PRODUCT, LIST_PRODUCTS, LIST_PRODUCTS_BY_CATEGORY, FIND_PRODUCT_BY_ID,
+    FILTER_PRODUCT_BY_NAME, ADD_CATEGORY_TO_PRODUCT
+}
